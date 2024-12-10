@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Overview</title>
+  <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <button class="back-btn">←</button>
+      <h1>Financial overview</h1>
+    </header>
+    <div class="content">
+      <section class="profit-section">
+        <h2>Estimated total profit</h2>
+        <p class="profit-value">₹0 </p>
+      </section>
+      <section class="crops-section">
+        <div class="crops-header">
+          <h3>Calculate profit</h3>
+          <button class="add-btn">+ Add</button>
+        </div>
+        <ul class="crops-list" id="crops-list">
+          <!-- Crops will be dynamically added here -->
+        </ul>
+      </section>
+    </div>
+  </div>
+  <script src="calc.js"></script>
+</body>
+</html>
